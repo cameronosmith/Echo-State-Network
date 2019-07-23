@@ -8,7 +8,7 @@ Overview of Echo State Network (ESN) :
     to avoid the pitfalls of training RNN's.
     Basically the resevoir acts a dynamical system and we're mapping the output
     of our created dynamical system to the output system we're trying to 
-    predict. At least that's my understanding of it. ¯\_(ツ)_/¯
+    predict. At least that's my understanding of it.
     
 The Code :
     This ESN module is supposed to be academic and really clear for anyone
@@ -19,10 +19,8 @@ The Code :
 Results:
 I just finished the code and tried it on the Mackey Glass system data.
 Here are the results with just 200 nodes and 40% node connectivity:
-[plotted output] (readme_imgs/output_plotted.png)
+[plotted output] (https://github.com/cameronosmith/Echo-State-Network/blob/master/readme_imgs/output_plotted.png?raw=true)
 
 And here is the sample adjacency matrix / weights matrix for the nodes
 with 40% connectivity.
-[adjacency matrix] (readme_imgs/adj_matrix.png)
-
-
+[adjacency matrix] (https://github.com/cameronosmith/Echo-State-Network/blob/master/readme_imgs/adj_matrix.png?raw=true)
