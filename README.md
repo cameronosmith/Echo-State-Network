@@ -17,13 +17,13 @@ The Code :
     math code going on.
 
 Results:
-    I just finished the code and tried it on the Mackey Glass system data.
+I just finished the code and tried it on the Mackey Glass system data.
 
-    Here are the results with just 200 nodes and 40% node connectivity:
-    [plotted output] (readme_imgs/output_plotted.png)
-    
-    And here is the sample adjacency matrix / weights matrix for the nodes
-    with 40% connectivity.
-    [adjacency matrix] (readme_imgs/adj_matrix.png)
-    
-    
+Here are the results with just 200 nodes and 40% node connectivity:
+[plotted output] (readme_imgs/output_plotted.png)
+
+And here is the sample adjacency matrix / weights matrix for the nodes
+with 40% connectivity.
+[adjacency matrix] (readme_imgs/adj_matrix.png)
+
+
