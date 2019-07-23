@@ -18,7 +18,6 @@ The Code :
 
 Results:
 I just finished the code and tried it on the Mackey Glass system data.
-
 Here are the results with just 200 nodes and 40% node connectivity:
 [plotted output] (readme_imgs/output_plotted.png)
 
