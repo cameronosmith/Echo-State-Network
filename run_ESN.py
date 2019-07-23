@@ -4,8 +4,11 @@ import numpy as np
 from EchoStateNetwork import EchoStateNetwork
 import matplotlib.pylab as plt
 
+mackey_g = "MackeyGlass_t17.txt"
+lorenz   = "lorenz_system.csv"
+
 #get our data and format it and such ya know
-data                = np.loadtxt( "data/MackeyGlass_t17.txt" )
+data                = np.loadtxt( "data/"+lorenz )
 train_len           = 2000
 test_len            = 200
 train_data_input    = data[:train_len]
@@ -18,6 +21,7 @@ machine = EchoStateNetwork( 1, 1 )
 machine.train( train_data_input, train_data_output )
 outputs, err = machine.test( test_data_input, test_data_output )
 print("error is: ",err)
+print("note: not mse, the difference x100 since small data points range")
 
 #plot the outputs of our machine against the truth
 time_seq = list(range(test_len))

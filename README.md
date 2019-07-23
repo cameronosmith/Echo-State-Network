@@ -20,7 +20,11 @@ Results:
 I just finished the code and tried it on the Mackey Glass system data.
 Here are the results with just 200 nodes and 40% node connectivity:
 
-![plotted output](readme_imgs/output_plotted.png)
+![mackeyplottedoutput](readme_imgs/mackey_output_plot.png)
+
+Another one with the lorenz system (just one observer).
+
+![lorenz output](readme_imgs/lorenz_output_plot.png)
 
 And here is the sample adjacency matrix / weights matrix for the nodes
 with 40% connectivity.
