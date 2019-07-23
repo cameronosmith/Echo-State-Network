@@ -19,8 +19,8 @@ The Code :
 Results:
 I just finished the code and tried it on the Mackey Glass system data.
 Here are the results with just 200 nodes and 40% node connectivity:
-[plotted output] (https://github.com/cameronosmith/Echo-State-Network/blob/master/readme_imgs/output_plotted.png?raw=true)
+![plotted output] (readme_imgs/output_plotted.png)
 
 And here is the sample adjacency matrix / weights matrix for the nodes
 with 40% connectivity.
-[adjacency matrix] (https://github.com/cameronosmith/Echo-State-Network/blob/master/readme_imgs/adj_matrix.png?raw=true)
+![adjacency matrix] (readme_imgs/adj_matrix.png)
